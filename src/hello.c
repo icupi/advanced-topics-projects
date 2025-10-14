@@ -6,6 +6,7 @@ int main(){
     	printf("Enter your name: "); //asks for user input
     	scanf("%99s", name); //gets user input
     	printf("Hello, %s!\n", name); //prints Hello and the name
+		printf("Goodbye, %s\n", user); //prints a goodbye message
 	return 0;
 }
 
