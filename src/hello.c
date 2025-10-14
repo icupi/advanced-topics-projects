@@ -2,8 +2,10 @@
 #include <stdlib.h>
 
 int main(){
-	char *user = getenv("USER"); //couldnt use $USER, used getenv
-	printf("Hello, %s\n", user);
+	char name[100];
+    	printf("Enter your name: "); //asks for user input
+    	scanf("%99s", name); //gets user input
+    	printf("Hello, %s!\n", name); //prints Hello and the name
 	return 0;
 }
 
